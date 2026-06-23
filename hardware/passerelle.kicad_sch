@@ -5648,7 +5648,7 @@
 			(uuid "c2ca7a24-0eb7-4561-b723-aac8f2a32efb")
 		)
 		(instances
-			(project "repo"
+			(project "passerelle"
 				(path "/e7d95599-b191-4688-bb45-304a9c2e4124"
 					(reference "U1")
 					(unit 1)
@@ -6103,7 +6103,7 @@
 			(uuid "63a55562-b9d7-419a-9869-d13022d697cd")
 		)
 		(instances
-			(project "repo"
+			(project "passerelle"
 				(path "/e7d95599-b191-4688-bb45-304a9c2e4124"
 					(reference "U3")
 					(unit 1)
@@ -6324,7 +6324,7 @@
 			(uuid "d025652a-3fa5-4a14-8314-da74916b7f18")
 		)
 		(instances
-			(project "repo"
+			(project "passerelle"
 				(path "/e7d95599-b191-4688-bb45-304a9c2e4124"
 					(reference "U2")
 					(unit 1)
