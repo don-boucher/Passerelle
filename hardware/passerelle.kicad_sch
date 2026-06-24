@@ -5030,6 +5030,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(label "D_N"
+		(at 284.48 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39590a4d-0054-408b-9abb-62b4150cf1da")
+	)
+	(label "D_P"
+		(at 284.48 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80902203-0478-45b4-b664-06687ecb6c2a")
+	)
 	(symbol
 		(lib_id "MCU_Nordic:nRF5340-QKxx")
 		(at 251.46 180.34 0)
