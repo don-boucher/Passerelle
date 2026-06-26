@@ -6265,7 +6265,7 @@
 	)
 	(sheet
 		(at 86.36 142.748)
-		(size 53.34 70.612)
+		(size 54.356 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6291,7 +6291,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 86.36 213.9446 0)
+			(at 86.36 187.7826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6302,7 +6302,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 139.7 148.59 0)
+			(at 140.716 148.59 0)
 			(uuid "c2ab457d-6bd0-4aa7-9af6-2f30fecfdf34")
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 			)
 		)
 		(pin "D_N" input
-			(at 139.7 151.13 0)
+			(at 140.716 151.13 0)
 			(uuid "7dd5845a-43e3-440c-b88b-9c15e2d870a8")
 			(effects
 				(font
@@ -6322,7 +6322,7 @@
 			)
 		)
 		(pin "D_P" input
-			(at 139.7 153.67 0)
+			(at 140.716 153.67 0)
 			(uuid "1efcdfd4-b04e-426e-b1da-3a8b8b843d19")
 			(effects
 				(font
@@ -6332,7 +6332,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 139.7 156.21 0)
+			(at 140.716 156.21 0)
 			(uuid "3bb819cc-f868-4280-b8db-ff642a6e9a59")
 			(effects
 				(font
@@ -6342,7 +6342,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 139.7 158.75 0)
+			(at 140.716 158.75 0)
 			(uuid "c3395697-454a-4fe5-abd8-39cc498c1a29")
 			(effects
 				(font
@@ -6352,7 +6352,7 @@
 			)
 		)
 		(pin "GPIO2" input
-			(at 139.7 161.29 0)
+			(at 140.716 161.29 0)
 			(uuid "3a263319-4d40-4d0b-a87b-7662a0d423e0")
 			(effects
 				(font
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(pin "GPIO3" input
-			(at 139.7 163.83 0)
+			(at 140.716 163.83 0)
 			(uuid "73d43387-afd0-45a8-b22d-f5d3d7609463")
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 			)
 		)
 		(pin "GPIO4" input
-			(at 139.7 166.37 0)
+			(at 140.716 166.37 0)
 			(uuid "d2afca5c-8af9-4bad-8965-7970006dd060")
 			(effects
 				(font
@@ -6382,7 +6382,7 @@
 			)
 		)
 		(pin "INT" input
-			(at 139.7 168.91 0)
+			(at 140.716 168.91 0)
 			(uuid "1bf82723-1bc4-442e-89aa-2d96cae4eb84")
 			(effects
 				(font
@@ -6392,7 +6392,7 @@
 			)
 		)
 		(pin "LSOUT" input
-			(at 139.7 171.45 0)
+			(at 140.716 171.45 0)
 			(uuid "b21a3acc-9b1d-493d-a520-6eae6a49cd53")
 			(effects
 				(font
@@ -6402,7 +6402,7 @@
 			)
 		)
 		(pin "RESET" input
-			(at 139.7 173.99 0)
+			(at 140.716 173.99 0)
 			(uuid "82a33027-83f6-43b7-8f00-a286b490e1fb")
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 139.7 176.53 0)
+			(at 140.716 176.53 0)
 			(uuid "75ec36e6-e76a-48f8-9a07-e760fe342314")
 			(effects
 				(font
@@ -6422,7 +6422,7 @@
 			)
 		)
 		(pin "VDDIO" input
-			(at 139.7 179.07 0)
+			(at 140.716 179.07 0)
 			(uuid "12a09274-e268-455b-a4fa-2c74af01d111")
 			(effects
 				(font
