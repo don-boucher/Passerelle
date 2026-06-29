@@ -1,0 +1,12 @@
+# Ignore West configuration directory
+.west/
+
+# Ignore Zephyr source code and external modules downloaded by west
+# (Adjust paths if you choose to download them deeper into the child directory)
+zephyr/
+modules/
+tools/
+bootloader/
+
+# Ignore build outputs
+build/
