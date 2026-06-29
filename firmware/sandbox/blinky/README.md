@@ -17,6 +17,11 @@ rm -rf .git .github .gitignore
 ## add `CONFIG_GPIO=y` to blinky/application/app/prj.conf
 ```
 
+## Fetch Project Dependencies
+```
+west update
+```
+
 ## Build
 ```
 west build -b nrf7002dk/nrf5340/cpuapp application/app
