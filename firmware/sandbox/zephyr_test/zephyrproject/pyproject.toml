@@ -1,9 +1,0 @@
-[project]
-name = "zephyrproject"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-    "west>=1.5.0",
-]
