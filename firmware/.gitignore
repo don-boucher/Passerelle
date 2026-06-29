@@ -7,3 +7,5 @@ bootloader/
 
 # Ignore build outputs
 build/
+
+__pycache__/

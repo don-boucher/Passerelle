@@ -31,3 +31,30 @@ west build -p always -b nrf7002dk/nrf5340/cpuapp application/app
 ```
 west flash
 ```
+
+## Debug
+```
+JLinkGDBServer -if swd -device nRF5340_xxAA_APP
+```
+From another shell:
+```
+arm-none-eabi-gdb build/zephyr/zephyr.elf
+```
+```
+(gdb) target extended-remote:2331
+Remote debugging using :2331
+0x00003cd6 in arch_cpu_idle ()
+    at /home/don/repos/passerelle/firmware/sandbox/blinky/zephyr/arch/arm/core/cortex_m/cpu_idle.c:99
+99              SLEEP_IF_ALLOWED(__WFI);
+(gdb) monitor halt
+(gdb) monitor reset
+Resetting target
+(gdb) break main
+Breakpoint 1 at 0x154: file /home/don/repos/passerelle/firmware/sandbox/blinky/build/zephyr/include/generated/zephyr/syscalls/device.h, line 55.
+(gdb) c
+Continuing.
+
+Breakpoint 1, main ()
+    at /home/don/repos/passerelle/firmware/sandbox/blinky/build/zephyr/include/generated/zephyr/syscalls/device.h:55
+55              compiler_barrier();
+```
