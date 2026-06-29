@@ -24,7 +24,7 @@ west update
 
 ## Build
 ```
-west build -b nrf7002dk/nrf5340/cpuapp application/app
+west build -p always -b nrf7002dk/nrf5340/cpuapp application/app
 ```
 
 ## Flash
