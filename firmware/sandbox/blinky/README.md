@@ -11,4 +11,6 @@ cd blinky
 git clone https://github.com/zephyrproject-rtos/example-application application
 west init -l application
 west update
+cd application
+rm -rf .git .github .gitignore
 ```
