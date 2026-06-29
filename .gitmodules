@@ -1,0 +1,3 @@
+[submodule "firmware/sandbox/zephyr_test/zephyrproject/zephyr"]
+	path = firmware/sandbox/zephyr_test/zephyrproject/zephyr
+	url = https://github.com/zephyrproject-rtos/zephyr
