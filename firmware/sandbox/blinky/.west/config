@@ -5,3 +5,6 @@ file = west.yml
 [zephyr]
 base = zephyr
 
+[build]
+board = nrf7002dk/nrf5340/cpuapp
+
