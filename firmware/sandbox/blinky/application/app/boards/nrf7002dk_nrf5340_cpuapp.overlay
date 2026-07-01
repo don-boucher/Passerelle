@@ -1,0 +1,10 @@
+/ {
+    chosen {
+        /* Optional: explicitly map the active LED */
+        zephyr,code-partition = &slot0_partition;
+    };
+};
+
+&wifi_nrf7002 {
+    status = "disabled";
+};
